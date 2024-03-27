@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Results</title>
+  </head>
+  <body style="background-color: #f1d179; font-family: Arial, sans-serif;">
+    {% if res %}
+    {% for record in res %}
+    <a href="{{ url_for('details', id=record['_id']) }}">{{ record['ClinicName'] }}</a><br><br>
+    {%endfor%}
+    {% else %}
+    no result found
+    {% endif %}
+  </body>
+</html>

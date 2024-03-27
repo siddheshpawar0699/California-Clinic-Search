@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('background-image.jpeg');
+    color: white; /* add this line to set the text color to white */
+    font-weight: bold; /* add this line to set the text to bold */
+  }
+  
+  form {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color: white; /* add this line to set the text color to white */
+    font-weight: bold; /* add this line to set the text to bold */
+  }
+  
+  input {
+    font-family: Georgia, serif;
+    color: white; /* add this line to set the text color to white */
+    font-weight: bold; /* add this line to set the text to bold */
+  }

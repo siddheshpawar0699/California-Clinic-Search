@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Form</title>
+  </head>
+  <body style="background-color: #f1d179; font-family: Arial, sans-serif;">
+    <div style="background-color: #f1d179; padding: 20px;">
+      <h1 style="font-size: 36px; color: #333; text-align: center;">California Clinics</h1>
+    </div>
+  
+    <div style="margin-top: 120px; max-width: 500px; margin: 0 auto;">
+      <form action="/query">
+        <label for="find" style="display: block; font-size: 18px; margin-bottom: 10px;">Find:</label>
+        <input name="find" type="text" id="find" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; margin-bottom: 20px;">
+        <input type="submit" value="Search" style="background-color: #1a44ffcc; color: #ffffff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+  
+      </form>
+      <hr style="border: none; border-top: 1px solid #000000; margin: 40px 0;">
+  
+      <h2 style="font-size: 24px; text-align: center; margin-bottom: 20px;"> OR </h2>
+  
+      <form action="/geosearch">
+        <label for="latitude" style="display: block; font-size: 18px; margin-bottom: 10px;">Latitude:</label>
+        <input name="StandardLatitude" type="text" id="latitude" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; margin-bottom: 20px;">
+  
+        <label for="longitude" style="display: block; font-size: 18px; margin-bottom: 10px;">Longitude:</label>
+        <input name="StandardLongitude" type="text" id="longitude" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; margin-bottom: 20px;">
+  
+        <input type="submit" value="Search" style="background-color: #1a44ff; color: #ffffff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+      </form>
+    </div>
+  </body>
+</html>
